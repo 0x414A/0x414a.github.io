@@ -19,5 +19,5 @@ disqus_sitename: allysonjuliancom
 
 # Build settings
 markdown: kramdown
-
+exclude: [README.md]
 gems: [jekyll-gist]
