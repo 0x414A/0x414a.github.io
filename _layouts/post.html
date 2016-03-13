@@ -17,7 +17,7 @@ layout: default
 <div id="article_comments">
   <div id="disqus_thread"></div>
   <script type="text/javascript">
-      var disqus_identifier = "{{ post.id || post.title }}";
+      var disqus_identifier = "{{ page.title }}";
       (function() {
            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
            dsq.src = 'http://{{ site.disqus_sitename }}.disqus.com/embed.js';
