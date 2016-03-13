@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: justnerdyposts
+title: 0x414A
 email: contact@allysonjulian.com
 description: > # this means to ignore newlines until "baseurl:"
-  I am just a nerd with a blog.
+  The blog of a nerd whose initials are AJ.
   
   
 baseurl: "" # the subpath of your site, e.g. /blog
