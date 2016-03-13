@@ -3,6 +3,7 @@ layout: post
 title: Arch Linux Macbook Pro 10,1 Post-Install Configuration and Tweaks
 date: 2015-12-08 14:43:00.000000000 +00:00
 ---
+
 This is a continuation of my [previous](http://ajwrit.es/2015/12/05/triple-boot-os-x-windows-81-and-arch-linux-on-2012-retina-macbook-pro/) post on Arch Linux on the Macbook Pro 10,1. This focuses on post-installation tweaks you can make on Arch Linux for this particular model. These are also applicable to the Macbook Pro 10,2, the 13-inch model without the discrete graphics.
 
 ## Updates
@@ -22,13 +23,13 @@ I prefer to use [DKMS](https://wiki.archlinux.org/index.php/Dynamic_Kernel_Modul
 
 To set up `dkms`, install with `pacman`:
 
-```sh
+```
 $ pacman -S dkms
 ```
 
 Then have it run at boot with `systemd`:
 
-```sh
+```
 $ systemctl enable dkms
 ```
 
@@ -44,7 +45,7 @@ I don't use the official propriety [NVIDIA](https://wiki.archlinux.org/index.php
 
 I use [Nouveau](https://wiki.archlinux.org/index.php/Nouveau) and [Intel](https://wiki.archlinux.org/index.php/Intel_graphics#Installation).
 
-```sh
+```
 $ pacman -S xf86-video-nouveau xf86-video-intel
 ```
 
@@ -54,13 +55,13 @@ $ pacman -S xf86-video-nouveau xf86-video-intel
 
 To switch to the intel card:
 
-```sh
+```
 $ gpu-switch -i
 ```
 
 To switch to the discrete GPU:
 
-```sh
+```
 $ gpu-switch -d
 ```
 
@@ -70,14 +71,14 @@ Then, reboot.
 
 To poweroff the discrete GPU after you've switched to the integrated card:
 
-```sh
+```
 $ sudo su
 $ echo OFF > /sys/kernel/debug/vgaswitcheroo/switch
 ```
 
 Then check if it's off:
 
-```sh
+```
 $ cat /sys/kernel/debug/vgaswitcheroo/switch
 ```
 
@@ -101,7 +102,7 @@ Then create a configuration under `/etc/X11/xorg.conf.d/50-mtrack.conf`.
 
 A sample configuration:
 
-```apache
+```
 Section "InputClass"
   Identifier "touchpad"
   Driver "mtrack"
@@ -128,7 +129,7 @@ EndSection
 
 Install [mbpfan-git](https://aur.archlinux.org/packages/mbpfan-git/) for enabling fan control.
 
-```sh
+```
 $ mbpfan -t
 $ systemctl enable mbpfan
 ```
@@ -141,7 +142,7 @@ $ systemctl enable mbpfan
 
 Install `tlp` from the official repos, then enable the `tlp` and `tlp-service`.
 
-```sh
+```
 $ systemctl enable tlp
 $ systemctl enable tlp-sleep
 ```
@@ -152,7 +153,7 @@ Use `powertop` from the official repos, which you can use to both look at power 
 
 You'll need to `--calibrate` to make sure the measurements from `powertop` are accurate. This will run a cycle that will turn off the display, wifi, to establish benchmarks.
 
-```sh
+```
 $ powertop --calibrate
 ```
 
@@ -168,7 +169,7 @@ Without any tweaks, this system can run pretty hot. My palms were sweating bucke
 
 `lm_sensors` is another package that can be used to help monitor the system temperature and configure cooling.
 
-```sh
+```
 $ pacman -S lm_sensors
 ```
 
