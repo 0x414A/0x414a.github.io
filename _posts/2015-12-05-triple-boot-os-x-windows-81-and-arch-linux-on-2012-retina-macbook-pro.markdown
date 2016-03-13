@@ -3,9 +3,20 @@ layout: post
 title: Triple Boot OS X, Windows 8.1, and Arch Linux on 2012 retina Macbook Pro
 date: 2015-12-05 19:25:00.000000000 +00:00
 ---
+
+* TOC
+{:toc}
+
+## Introduction
+
 I took some time this week to set up a triple-boot system on my 2012 retina Macbook (15-inch version). Initially, I wanted to do an Arch Linux-only install, but OS X is needed for firmware updates, and I still have a boatload of Windows-only games to finish.
 
 I thought I'd write down what I did just in case it's useful to anyone out there.
+
+## Updates
+
+- **2015-12-08** [Post-installation tweaks](https://allysonjulian.com/arch-linux-macbook-pro-101-post-install-configuration-and-tweaks/)
+
 
 ## Macbook Pro 10,1 Notes
 
@@ -311,6 +322,4 @@ Now, exit the `chroot`, and type `reboot`. You should now see a simple boot load
 
 I'll be following up with another post going over some post-installation tweaks specific to Arch Linux.
 
-## Updates
 
-- **2015-12-08** [Post-installation tweaks](https://allysonjulian.com/arch-linux-macbook-pro-101-post-install-configuration-and-tweaks/)

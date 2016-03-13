@@ -19,3 +19,5 @@ disqus_sitename: allysonjuliancom
 
 # Build settings
 markdown: kramdown
+
+gems: [jekyll-gist]

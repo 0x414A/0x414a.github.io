@@ -4,7 +4,13 @@ title: Arch Linux Macbook Pro 10,1 Post-Install Configuration and Tweaks
 date: 2015-12-08 14:43:00.000000000 +00:00
 ---
 
-This is a continuation of my [previous](http://ajwrit.es/2015/12/05/triple-boot-os-x-windows-81-and-arch-linux-on-2012-retina-macbook-pro/) post on Arch Linux on the Macbook Pro 10,1. This focuses on post-installation tweaks you can make on Arch Linux for this particular model. These are also applicable to the Macbook Pro 10,2, the 13-inch model without the discrete graphics.
+* TOC
+{:toc}
+
+## Introduction
+
+This is a continuation of my [previous](https://allysonjulian.com/triple-boot-os-x-windows-81-and-arch-linux-on-2012-retina-macbook-pro/) post on Arch Linux on the Macbook Pro 10,1. This focuses on post-installation tweaks you can make on Arch Linux for this particular model. These are also applicable to the Macbook Pro 10,2, the 13-inch model without the discrete graphics.
+
 
 ## Updates
 
@@ -102,28 +108,7 @@ Then create a configuration under `/etc/X11/xorg.conf.d/50-mtrack.conf`.
 
 A sample configuration:
 
-```
-Section "InputClass"
-  Identifier "touchpad"
-  Driver "mtrack"
-  MatchIsTouchpad "on"
-  MatchDevicePath "/dev/input/event*"
-  Option "Sensitivity" "0.45"
-  Option "TapButton1" "1"
-  Option "TapButton2" "3"
-  Option "TapButton3" "2"
-  Option "TapButton4" "0"
-  Option "ClickFinger1" "1"
-  Option "ClickFinger2" "0"
-  Option "ClickFinger3" "0"
-  Option "ButtonMoveEmulate" "false"
-  Option "FingerHigh" "10"
-  Option "FingerLow" "1"
-  Option "IgnoreThumb" "true"
-  Option "IgnorePalm" "true"
-  Option "TapDragEnable" "false"
-EndSection
-```
+{% gist 234c34409047a091d7ad %}
 
 ## Fan Control with mbpfan
 

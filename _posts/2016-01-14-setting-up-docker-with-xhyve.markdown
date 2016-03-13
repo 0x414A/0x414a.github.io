@@ -3,13 +3,20 @@ layout: post
 title: Setting up docker with xhyve
 date: 2016-01-14 18:18:58.000000000 +00:00
 ---
+
+* TOC
+{:toc}
+
+# Introduction
+
 One of the pain points I have had with using `docker` on OS X is that performance can take a hit due to needing a Type 2 hypervisor (which runs more like a regular program that doesn't have direct access to hardware) to work (e.g. virtualbox, VMWare). 
 
 Here's where [xhyve](https://github.com/mist64/xhyve) comes in. xhyve takes advantage of the `Hypervisor.framework` that was introduced in OS X 10.10, which brings Type 1 hypervisor technology (direct, host-level access to hardware) to OS X. @mist64, the main author of xhyve has an [excellent introduction](http://www.pagetable.com/?p=831) written up on it.
 
 As this is all very new technology, I did not find many guides on how to use `xhyve` with my `docker` workflow, so I've written up my notes here.
 
-# docker with xhyve
+
+## docker with xhyve
 
 A solution I've been using to get that takes advantage of @zchee's [docker-machine-driver-xhyve](https://github.com/zchee/docker-machine-driver-xhyve).
 
