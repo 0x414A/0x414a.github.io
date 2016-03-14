@@ -12,9 +12,9 @@ description: > # this means to ignore newlines until "baseurl:"
   Allyson Julian on software development and other stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://allysonjulian.com" # the base hostname & protocol for your site
-permalink: /:title/
+permalink: /posts/:title/
 twitter_username: astrohckr
-github_username:  '0x414A'
+github_username: '0x414A'
 disqus_sitename: allysonjuliancom
 
 # Build settings
