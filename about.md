@@ -2,6 +2,7 @@
 layout: page
 type: about
 slug: about
+permalink: /about/
 title: About
 ---
 

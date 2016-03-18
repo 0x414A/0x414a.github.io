@@ -2,6 +2,7 @@
 layout: page
 type: code
 slug: code
+permalink: /code/
 title: Code
 ---
 
@@ -11,4 +12,4 @@ Currently, I'm working on the [yt](https://bitbucket.org/yt_analysis/yt) data an
 
 ## Elsewhere
 
-You can also find my code on [Github](https://github.com/astrohckr) and [Bitbucket](https://bitbucket.org/astrohckr).
+You can also find my code on [Github](https://github.com/0x414A) and [Bitbucket](https://bitbucket.org/0x414A).
