@@ -1,6 +1,6 @@
 title: aj
 tagline: The personal blog of a hacker
-permalink: /posts/:title
+permalink: /posts/:title/
 exclude: [Gemfile, Gemfile.lock, README.md, vendor]
 markdown: kramdown
 kramdown:
