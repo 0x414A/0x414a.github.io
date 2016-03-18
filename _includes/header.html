@@ -9,12 +9,12 @@
         {% case page.display_type %}
           {% when 'index' %}
             ls /var/<span>{{ page.slug }}</span>/
-          {% when 'single' %}
-            less <span>{{ page.date|date: "%Y-%m-%d" }}</span>{{ page.ext_display}}
+          {% when 'page' %}
+            ls /home/{{ site.title }}/<span>{{ page.title }}</span>
           {% when 'about' %}
             whoami
           {% else %}
-            ls /home/{{ site.title }}/<span>{{ page.title }}</span>
+            less <span>{{ page.date|date: "%Y-%m-%d" }}</span>{{ page.ext_display}}
         {% endcase %}
       </p>
     </div>

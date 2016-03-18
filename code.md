@@ -1,6 +1,6 @@
 ---
 layout: page
-type: code
+display_type: page
 slug: code
 permalink: /code/
 title: Code
