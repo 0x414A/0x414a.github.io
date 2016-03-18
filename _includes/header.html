@@ -6,7 +6,7 @@
         <span class="header-site-logo">&lambda;</span>
       </a>
       <p class="header-site-tagline">
-        {% case page.type %}
+        {% case page.display_type %}
           {% when 'index' %}
             ls /var/<span>{{ page.slug }}</span>/
           {% when 'single' %}

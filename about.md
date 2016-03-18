@@ -1,6 +1,6 @@
 ---
 layout: page
-type: about
+display_type: about
 slug: about
 permalink: /about/
 title: About
