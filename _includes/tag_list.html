@@ -1,0 +1,6 @@
+        <ul class="blog-tag-list">
+          <li class="blog-tag-list-item"><i class="fa fa-tags"></i></li>
+          {% for tag in tags %}
+            <li class="blog-tag-list-item"><a href="/tags/{{ tag|replace:' ','-' }}" class="blog-tag-list-item-link">{{ tag }}</a></li>
+          {% endfor %}
+        </ul>

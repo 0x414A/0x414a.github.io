@@ -1,12 +1,24 @@
-# What dis?
+# README
 
-This is the source code for my [blog](https://allysonjulian.com/).
+This is the repo hosting the source for my blog at [hckr.es](http://hckr.es).
 
+## Setup
 
-## Previewing
+Install all gems specified in the `Gemfile`:
 
-I preview the site using the official `jekyll/jekyll:pages` docker image, which replicates GitHub Pages' jekyll stack.
+    bundle install --binstubs .bundle/bin
 
-```
-docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 127.0.0.1:4000:4000 jekyll/jekyll:pages
-```
+## Usage
+
+To preview the site on the local server:
+
+    rake preview
+
+To build the site (and generate tags):
+
+    rake build
+
+To write a new post and edit it with your editor of choice:
+
+	rake write TITLE='Some clever title here'
+

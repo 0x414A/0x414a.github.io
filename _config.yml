@@ -1,23 +1,12 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: allysonjulian
-email: contact@allysonjulian.com
-description: > # this means to ignore newlines until "baseurl:"
-  Allyson Julian on software development and other stuff.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://allysonjulian.com" # the base hostname & protocol for your site
-permalink: /posts/:title/
-twitter_username: astrohckr
-github_username: '0x414A'
-disqus_sitename: allysonjuliancom
-
-# Build settings
+title: aj
+tagline: The personal blog of a hacker
+permalink: /posts/:title
+exclude: [Gemfile, Gemfile.lock, README.md, vendor]
 markdown: kramdown
-exclude: [README.md]
+kramdown:
+  input: GFM
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+baseurl: ""
+editor: emacs .
+disqus_sitename: allysonjuliancom
 gems: [jekyll-gist]

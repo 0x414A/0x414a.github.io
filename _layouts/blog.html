@@ -1,0 +1,20 @@
+---
+layout: default
+slug: log
+type: index
+---
+
+<div class="blog-index">
+{% for post in site.posts %}
+
+  <div class="row blog-row">
+    <div class="one-third column blog-info">
+      <time class="blog-date" pubdate="pubdate">{{ post.date|date: "%Y-%m-%d" }}</time>
+    </div>
+    <div class="one-half column">
+      <a class="blog-list-title" href="{{ post.url }}">{{ post.title }}</a>
+    </div>
+  </div>
+  
+{% endfor %}
+</div>
