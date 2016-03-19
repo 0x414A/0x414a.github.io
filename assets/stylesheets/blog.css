@@ -1,6 +1,6 @@
 .blog-index {
     list-style-type: none;
-    padding-left: 0;
+    padding: 0;
 }
 
 .blog-row {
@@ -8,16 +8,12 @@
     border-bottom: solid #eee 1px;
 }
 
-.blog-info {
-    text-align: right;
-}
-
 .blog-header {
   border-bottom: solid #eee 1px;
   clear: both;
 }
 
-.blog-date {
+.blog-info {
     color: #9EA5A8;
     font-size: 10pt;
     font-family: 'Anonymous Pro', sans-serif;
@@ -70,7 +66,7 @@
   color: inherit;
 }
 .blog-tags {
-  margin-top: 10px;
+  margin: 0;
 }
 
 .blog-tag-list {
@@ -81,7 +77,6 @@
 
 .blog-tag-list-item {
     display: inline-block;
-    padding: 2px;
 }
 
 .blog-tag-list-item-link {
@@ -107,9 +102,7 @@
 }
 
 ul#markdown-toc {
-  background: #e3e5ff;
   padding: 20px 40px;
-  border: solid 1px #eee;
 }
 
 ul#markdown-toc a {

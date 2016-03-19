@@ -2,6 +2,10 @@
 layout: post
 title: Setting up docker with xhyve
 date: 2016-01-14 18:18:58.000000000 +00:00
+tags: 
+  - xhyve
+  - osx
+  - docker
 ---
 
 * TOC

@@ -2,15 +2,16 @@
 layout: post
 title: Arch Linux Chromebook Trackpad Tweaks
 date: 2015-10-26 11:01:00.000000000 +00:00
+tags:
+  - chromebook
+  - tips
 ---
-
-* TOC
-{:toc}
-
-## Introduction
 
 I thought I'd take some time to document some Chromebook trackpad tweaks that could be useful on Arch Linux in particular. Note that I'm running this 
 natively rather from [`crouton`](https://github.com/dnschneid/crouton).
+
+* TOC
+{:toc}
 
 ## Using the Chromium OS Trackpad Driver on Linux
 

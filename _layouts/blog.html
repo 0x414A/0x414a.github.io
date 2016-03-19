@@ -9,12 +9,21 @@ display_type: index
 
   <div class="row blog-row">
     <div class="one-third column blog-info">
-      <time class="blog-date" pubdate="pubdate">{{ post.date|date: "%Y-%m-%d" }}</time>
+      <div class="row">
+        <div class="one-third column">
+          <time class="blog-date" pubdate="pubdate">{{ post.date|date: "%Y-%m-%d" }}</time>
+        </div>
+        <div class="two-thirds column">
+          {% assign tags = post.tags %}
+          {% include tag_list.html %}
+        </div>
+      </div>
     </div>
-    <div class="one-half column">
+
+    <div class="two-thirds column">
       <a class="blog-list-title" href="{{ post.url }}">{{ post.title }}</a>
     </div>
   </div>
-  
+
 {% endfor %}
 </div>

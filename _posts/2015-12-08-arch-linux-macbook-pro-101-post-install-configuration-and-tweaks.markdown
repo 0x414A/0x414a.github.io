@@ -2,15 +2,14 @@
 layout: post
 title: Arch Linux Macbook Pro 10,1 Post-Install Configuration and Tweaks
 date: 2015-12-08 14:43:00.000000000 +00:00
+tags:
+  - linux
 ---
-
-* TOC
-{:toc}
-
-## Introduction
 
 This is a continuation of my [previous](https://allysonjulian.com/triple-boot-os-x-windows-81-and-arch-linux-on-2012-retina-macbook-pro/) post on Arch Linux on the Macbook Pro 10,1. This focuses on post-installation tweaks you can make on Arch Linux for this particular model. These are also applicable to the Macbook Pro 10,2, the 13-inch model without the discrete graphics.
 
+* TOC
+{:toc}
 
 ## Updates
 
