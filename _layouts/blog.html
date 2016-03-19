@@ -8,6 +8,11 @@ display_type: index
 {% for post in site.posts %}
 
   <div class="row blog-row">
+
+    <div class="two-thirds column">
+      <a class="blog-list-title" href="{{ post.url }}">{{ post.title }}</a>
+    </div>
+
     <div class="one-third column blog-info">
       <div class="row">
         <div class="one-third column">
@@ -20,9 +25,6 @@ display_type: index
       </div>
     </div>
 
-    <div class="two-thirds column">
-      <a class="blog-list-title" href="{{ post.url }}">{{ post.title }}</a>
-    </div>
   </div>
 
 {% endfor %}

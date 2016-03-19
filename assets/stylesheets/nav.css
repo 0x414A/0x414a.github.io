@@ -1,6 +1,5 @@
 .nav {
     text-align: right;
-    margin-bottom: -2px;
 }
 
 .nav ul {
@@ -52,5 +51,4 @@
   font-weight: bold;
   border-left: solid 1px #ddd;
   border-right: solid 1px #ddd;
-  border-bottom: solid 1px #bbb;
 }

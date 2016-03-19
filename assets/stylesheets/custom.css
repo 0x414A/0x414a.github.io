@@ -5,6 +5,10 @@
 @import 'footer.css';
 @import 'jekyll-github.css';
 
+.content {
+  border-top: solid #eee 1px;
+}
+
 img {
   max-width: 100%;
 }
