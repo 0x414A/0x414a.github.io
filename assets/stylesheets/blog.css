@@ -1,11 +1,11 @@
 .blog-index {
   margin-top: 25px;
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .blog-row {
-    padding: 25px 0;
+  padding: 10px 0;
 }
 
 .blog-header {
