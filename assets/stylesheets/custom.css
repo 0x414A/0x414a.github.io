@@ -4,3 +4,7 @@
 @import 'blog.css';
 @import 'footer.css';
 @import 'jekyll-github.css';
+
+img {
+  max-width: 100%;
+}
