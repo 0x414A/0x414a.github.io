@@ -1,9 +1,7 @@
 .header {
     margin-top: 0;
     padding: 0;
-    font-family: 'Anonymous Pro', sans-serif;
-    background: #eee;
-    border-bottom: solid 1px #bbb;
+    border-bottom: solid 1px #eee;
 }
 
 .header-site-link {
@@ -17,9 +15,9 @@
 }
 
 .header-site-logo {
+  font-weight: bold;
     display: inline;
-    color: #5cb85c;
-    text-shadow: 1px 1px #000;
+    color: #2b2525;
     font-size: 24pt;
 }
 
