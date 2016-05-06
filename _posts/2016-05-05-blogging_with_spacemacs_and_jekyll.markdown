@@ -8,7 +8,11 @@ tags:
   - emacs
 ---
 
+I use Emacs with [Spacemacs](http://spacemacs.org/) configuration kit. These are some of my notes on setting it up to work with this jekyll blog. 
+
 ## Installing the spacemacs jekyll layer
+
+This utilizes a configuration layer to work with a spacemacs-ified [Hyde](https://github.com/nibrahim/Hyde), an excellent jekyll management interface for Emacs.  
 
 Assuming you have [spacemacs](http://spacemacs.org/) installed and set up, you can just clone the `jekyll` layer I put together as one of your private layers: 
 
@@ -56,4 +60,6 @@ Then, you'll be brought to this screen:
 
 You can bring this up any time you're in your blog's source directory with <kbd>SPC a j</kbd>. 
 
+From there you can create a new draft post by pressing <kbd>n</kbd>.
 
+For more on the keybindings, read [here](https://github.com/0x414A/spacemacs-jekyll#key-bindings).
