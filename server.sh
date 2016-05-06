@@ -1,7 +1,14 @@
 #!/usr/bin/env sh
 
+
 start() {
-    docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p $(dlite ip):4000:4000 jekyll/jekyll:pages jekyll serve --watch --force_polling
+    if [[ `uname` == 'Darwin' ]]; then
+        echo "Starting server for OS X"
+        docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p $(dlite ip):4000:4000 jekyll/jekyll:pages jekyll serve --watch --force_polling
+    else
+        echo "Starting server for Linux"
+        docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 127.0.0.1:4000:4000 jekyll/jekyll:pages
+    fi
 }
 
 case "$1" in
