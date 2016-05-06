@@ -6,7 +6,9 @@
 @import 'jekyll-github.css';
 
 
-.container { max-width: 725px; }
+.container {
+  max-width: 725px;
+}
 
 .content {
   margin: 0 auto;
