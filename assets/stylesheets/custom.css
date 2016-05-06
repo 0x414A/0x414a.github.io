@@ -5,7 +5,10 @@
 @import 'footer.css';
 @import 'jekyll-github.css';
 
+
 .content {
+  margin: 0 auto;
+  width: 750px;
   border-top: solid #eee 1px;
 }
 
