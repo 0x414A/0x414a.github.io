@@ -1,7 +1,7 @@
 title: aj
 tagline: My life is a hexdump 
 permalink: /posts/:title/
-exclude: [Gemfile, Gemfile.lock, README.md, vendor, org, .hyde.el]
+exclude: [Gemfile, Gemfile.lock, README.md, vendor, org, .hyde.el, server.sh]
 markdown: kramdown
 kramdown:
   input: GFM
