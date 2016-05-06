@@ -6,6 +6,7 @@
 
 .blog-row {
   padding: 10px 0;
+  border-bottom: solid #eee 1px;
 }
 
 .blog-header {
@@ -14,9 +15,14 @@
 }
 
 .blog-info {
+  text-align: right;
     color: #9EA5A8;
     font-size: 10pt;
     font-family: 'Anonymous Pro', sans-serif;
+}
+
+.blog-title-wrapper {
+  text-align: left;
 }
 
 .blog-list-title {

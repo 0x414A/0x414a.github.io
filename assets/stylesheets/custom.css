@@ -5,11 +5,11 @@
 @import 'footer.css';
 @import 'jekyll-github.css';
 
+.container { max-width: 900px; }
 
 .content {
-  max-width: 800px;
+  max-width: 850px;
   margin: 0 auto;
-  border-top: solid #eee 1px;
 }
 
 img {
