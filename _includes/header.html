@@ -3,7 +3,7 @@
   <div class="row">
     <div class="one-third column site-title">
       <a class="header-site-link" href="{{ site.baseurl }}">
-        <span class="header-site-logo">&lambda;</span>
+        <span class="header-site-logo">&lambda; </span>
       </a>
       <p class="header-site-tagline">
         {% case page.display_type %}
@@ -14,7 +14,7 @@
           {% when 'about' %}
             whoami
           {% else %}
-            <span>{{ page.date|date: "%Y-%m-%d" }}</span>.log
+            less <span>{{ page.date|date: "%Y-%m-%d" }}</span>.log
         {% endcase %}
       </p>
     </div>
