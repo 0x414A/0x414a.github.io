@@ -43,8 +43,8 @@
     background: none;
 }
 
-.nav-item-active {
+.nav-item-active,
+.nav-item-active:hover {
   color: #fff;
   font-weight: bold;
-  
 }
