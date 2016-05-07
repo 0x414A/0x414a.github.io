@@ -24,11 +24,11 @@
 
 .header-site-tagline {
     display: inline;
-    color: #aaa;
+    color: #656565;
     font-size: 14pt;
     font-family: 'Anonymous Pro', sans-serif;
 }
 
 .header-site-tagline span {
-    color: #484848;
+    color: #aaa;
 }

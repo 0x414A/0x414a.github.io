@@ -4,7 +4,7 @@
         {% unless site_page.exclude_from_nav %}
           <li>
             <a href="{{ site_page.url }}"
-               class="nav-item{% if site_page.slug == page.slug or site_page.slug == page.layout %} nav-item-active{% endif %}">
+               class="nav-item{% if page.slug == site_page.slug %} nav-item-active{% endif %}">
               {{ site_page.slug }}
             </a>
           </li>
