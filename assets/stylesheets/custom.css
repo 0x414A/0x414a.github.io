@@ -13,10 +13,12 @@
   font-family: 'rubiklight';
 }
 
+/* Set max width for images */ 
 img {
   max-width: 100%;
 }
 
+/* Typography */
 h1,h2,h3,h4 {
   font-family: 'rubikmedium';
 }
