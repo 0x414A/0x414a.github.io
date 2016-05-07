@@ -10,7 +10,7 @@
 
 .content {
   margin: 0 auto;
-  font-family: 'rubiklight';
+  font-family: 'rubiklight', sans-serif;
 }
 
 /* Set max width for images */ 
@@ -20,7 +20,7 @@ img {
 
 /* Typography */
 h1,h2,h3,h4 {
-  font-family: 'rubikmedium';
+  font-family: 'rubikmedium', sans-serif;
 }
 
 p {
