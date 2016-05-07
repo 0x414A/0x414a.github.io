@@ -28,7 +28,7 @@ Mainly, my goal here is to keep a repository of the things I hack around with, w
 
 ## Attribution
 
-All posts are licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons, Share-Alike</a>. 
+All posts are licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">the Creative Commons Attribution, ShareAlike License 4.0</a>. 
 
 The source code used to generate this site is [MIT Licensed](https://opensource.org/licenses/MIT).
 

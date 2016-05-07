@@ -16,20 +16,13 @@
           </li>
         {% endunless %}
       {% endfor %}
-          
-          <!-- RSS -->
-          <li>
-            <a class="nav-item" href="{{ site.url }}/feed.xml">
-              <i class="fa fa-rss" aria-hidden="true"></i>
-            </a>
-          </li>
 
-          <!-- Search -->
-          <li>
-            <a class="nav-item {% if page.display_type == 'search' %}nav-item-active{% endif %}" href="{{ site.url }}/search/">
-              <i class="fa fa-search" aria-hidden="true"></i>
-            </a>
-          </li>
+      <!-- Search -->
+      <li>
+        <a class="nav-item {% if page.display_type == 'search' %}nav-item-active{% endif %}" href="{{ site.url }}/search/">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </a>
+      </li>
 
     </ul>
 </nav>

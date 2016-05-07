@@ -5,11 +5,13 @@
   text-align: center;
   text-transform: uppercase;
   color: #848484;
-  font-size: 8pt;
+  font-size: 11pt;
 }
 
 .footer a {
   color: #6f6f6f;
   font-weight: bold;
   text-decoration: none;
+  padding: 0 0 2px 0;
+  display: inline-block;
 }
