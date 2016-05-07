@@ -1,6 +1,6 @@
 ---
 layout: blog
 slug: log
-title: a hacker's blog
+title: /var/log 
 ---
 
