@@ -9,20 +9,25 @@
   text-decoration: none;
 }
 
+.header-site-title, .header-site-extra {
+  padding: 0 5px;
+}
+
+.header-site-lambda, .header-site-extra {
+  font-weight: bold;
+}
+
+.header-site-lambda {
+  display: inline;
+  color: #c8d8df;
+  font-size: 20pt;
+}
+
 .header-site-title {
   color: #ffb473;
   display: inline;
   font-size: 16pt;
-  font-weight: bold;
   font-family: 'Anonymous Pro', sans-serif;
-  padding: 0 6px;
-}
-
-.header-site-logo {
-  font-weight: bold;
-  display: inline;
-  color: #c8d8df;
-  font-size: 20pt;
 }
 
 .header-site-tagline {
