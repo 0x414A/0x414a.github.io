@@ -10,9 +10,17 @@
 
 .content {
   margin: 0 auto;
+  font-family: 'rubiklight';
 }
 
 img {
   max-width: 100%;
 }
 
+h1,h2,h3,h4 {
+  font-family: 'rubikmedium';
+}
+
+p {
+  font-size: 14pt;
+}
