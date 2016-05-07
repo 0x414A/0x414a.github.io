@@ -1,5 +1,11 @@
 <nav class="nav">
     <ul>
+          <!-- log -->
+          <li>
+            <a class="nav-item {% if page.slug == 'log' %}nav-item-active{% endif %}" href="{{ site.url }}/">
+            </a>
+          </li>
+
       {% for site_page in site.pages %}
         {% unless site_page.exclude_from_nav %}
           <li>
