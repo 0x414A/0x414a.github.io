@@ -22,5 +22,9 @@ h1,h2,h3,h4 {
 }
 
 p {
-  font-size: 14pt;
+  font-size: 12pt;
+}
+
+pre,code { 
+  font-family: 'Anonymous Pro', sans-serif;
 }
