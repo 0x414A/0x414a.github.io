@@ -16,8 +16,7 @@
 
 .blog-info {
   text-align: right;
-    color: #9EA5A8;
-    font-size: 10pt;
+  color: #9EA5A8;
 }
 
 .blog-title-wrapper {
@@ -25,36 +24,36 @@
 }
 
 .blog-list-title {
-    text-decoration: none;
-    font-weight: bold;
-    color: #1e2032;
-    text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #1e2032;
+  text-transform: uppercase;
 }
 
 .blog-title {
-    text-decoration: none;
-    font-weight: bold;
-    color: #1e2032;
-    text-transform: uppercase;
-    font-size: 35pt;
-    margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #1e2032;
+  text-transform: uppercase;
+  font-size: 35pt;
+  margin-top: 10px;
 }
 
 .blog-content {
-    margin: 0;
-    padding: 0;
-    border-bottom: solid 1px transparent;
-    color: #424242;
+  margin: 0;
+  padding: 0;
+  border-bottom: solid 1px transparent;
+  color: #424242;
 }
 
 .blog-content p a {
-    color: #557aaa;
-    text-decoration: none;
-    font-weight: bold;
+  color: #557aaa;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .blog-content p a:hover {
-    color: #e6b173;
+  color: #e6b173;
 }
 
 .blog-content code {
@@ -75,35 +74,35 @@
 }
 
 .blog-tag-list {
-    list-style: none;
-    padding-left: 0;
-    color: #bbb;
+  list-style: none;
+  padding-left: 0;
+  color: #bbb;
 }
 
 .blog-tag-list-item {
-    display: inline-block;
+  display: inline-block;
 }
 
 .blog-tag-list-item-link {
-    display: block;
-    font-family: 'Helvetica', Arial, sans-serif;
-    font-size: 8pt;
-    background: #fdfdfd;
-    padding: 5px;
-    color: #bbb;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    border: solid 1px #fafafa;
-    text-decoration: none;
+  display: block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 8pt;
+  background: #fdfdfd;
+  padding: 5px;
+  color: #bbb;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: solid 1px #fafafa;
+  text-decoration: none;
 }
 
 .blog-tag-list-item-link:hover {
-    background: #fefefe;
-    color: #aaa;
+  background: #fefefe;
+  color: #aaa;
 }
 
 .blog-post-metadata {
-    margin: 0;
+  margin: 0;
 }
 
 ul#markdown-toc {
