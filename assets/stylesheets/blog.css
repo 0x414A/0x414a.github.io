@@ -17,6 +17,7 @@
 .blog-info {
   text-align: right;
   color: #9EA5A8;
+  padding: 0 5px;
 }
 
 .blog-title-wrapper {
@@ -28,6 +29,7 @@
   font-weight: bold;
   color: #1e2032;
   text-transform: uppercase;
+  padding: 5px;
 }
 
 .blog-title {
@@ -111,4 +113,8 @@ ul#markdown-toc {
 
 ul#markdown-toc a {
   text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .blog-info { margin-right: 5px; }
 }
