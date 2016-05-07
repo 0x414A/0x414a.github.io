@@ -114,6 +114,11 @@ ul#markdown-toc a {
   text-decoration: none;
 }
 
-@media (max-width: 600px) {
-  .blog-info { margin-right: 5px; }
+@media (max-width: 800px) {
+  .blog-info{
+    text-align: left;
+  }
+  .blog-list-title {
+    padding-left: 7px;
+  }
 }
