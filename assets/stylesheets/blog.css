@@ -114,11 +114,10 @@ ul#markdown-toc a {
   text-decoration: none;
 }
 
-@media (max-width: 800px) {
-  .blog-info{
+@media (max-width: 768px) {
+  .blog-info {
     text-align: left;
   }
-  .blog-list-title {
-    padding-left: 7px;
-  }
+  .two.columns { width: 100%;}
 }
+
