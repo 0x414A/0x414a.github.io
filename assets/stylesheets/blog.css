@@ -6,10 +6,10 @@
 
 .blog-row {
   padding: 10px 0;
+  border-bottom: solid #eee 1px;
 }
 
 .blog-header {
-  padding: 10px 0;
   clear: both;
 }
 
@@ -35,7 +35,8 @@
     font-weight: bold;
     color: #1e2032;
     text-transform: uppercase;
-    font-size: 34pt;
+    font-size: 20pt;
+    margin-top: 10px;
 }
 
 .blog-content {
