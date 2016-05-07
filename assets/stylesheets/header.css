@@ -27,6 +27,10 @@
   margin: 0 5px 0 15px;
 }
 
+.header-site-extra {
+  margin: 0 5px 0 0;
+}
+
 .header-site-tagline {
   display: inline;
   color: #656565;
