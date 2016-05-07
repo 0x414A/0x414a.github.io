@@ -1,34 +1,37 @@
 .header {
-    margin-top: 0;
-    padding: 0;
-    border-bottom: solid 5px #eee;
-    background: #242728;
+  margin-top: 0;
+  padding: 0;
+  border-bottom: solid 5px #eee;
+  background: #242728;
 }
 
 .header-site-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .header-site-title {
-    color: #777;
-    display: inline;
-    font-size: 18pt;
+  color: #ffb473;
+  display: inline;
+  font-size: 16pt;
+  font-weight: bold;
+  font-family: 'Anonymous Pro', sans-serif;
+  padding: 0 6px;
 }
 
 .header-site-logo {
   font-weight: bold;
-    display: inline;
-    color: #c8d8df;
-    font-size: 20pt;
+  display: inline;
+  color: #c8d8df;
+  font-size: 20pt;
 }
 
 .header-site-tagline {
-    display: inline;
-    color: #656565;
-    font-size: 14pt;
-    font-family: 'Anonymous Pro', sans-serif;
+  display: inline;
+  color: #656565;
+  font-size: 14pt;
+  font-family: 'Anonymous Pro', sans-serif;
 }
 
 .header-site-tagline span {
-    color: #aaa;
+  color: #aaa;
 }
