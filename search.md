@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Search
+title: search
 exclude_from_nav: true
+display_type: search
 ---
-
-## Search for a post
 
 <script>
   (function() {
