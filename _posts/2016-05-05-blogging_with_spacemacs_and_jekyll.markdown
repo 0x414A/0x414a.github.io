@@ -26,9 +26,7 @@ Then, set add `jekyll` to your `dotspacemacs-configuration-layers`:
   (setq-default dotspacemacs-configuration-layers '(jekyll))
 ```
 
-When you reload your spacemacs configuration with <kbd>SPC f e R</kbd>, [my fork](https://github.com/0x414A/Hyde) of nibrahim's Hyde mode will be installed. 
-
-This may take some time as the recipe fetches from my github repo rather than MELPA. 
+When you reload your spacemacs configuration with <kbd>SPC f e R</kbd>, Hyde will be installed.
 
 ## Configuration 
 
