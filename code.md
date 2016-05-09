@@ -3,9 +3,8 @@ layout: page
 display_type: page
 slug: code
 permalink: /code/
-title: Code
+title: code
 ---
-
 ## Work
 
 Currently, I'm working on the [yt](https://bitbucket.org/yt_analysis/yt) data analysis tool.
