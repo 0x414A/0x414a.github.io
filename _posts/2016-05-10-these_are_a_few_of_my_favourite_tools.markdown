@@ -27,25 +27,25 @@ Yes, both code-writing and prose-writing involve long hours spent looking at str
 
 **code** [M+ 1m](https://www.fontsquirrel.com/fonts/M-1m) also has a dashed rather than dotted 0 which I prefer.
 
-![M+ 1m font](images/font1.png)
+![M+ 1m font](/images/font1.png)
 
 **writing** [Office Code Pro](https://github.com/nathco/Office-Code-Pro) 
 
-![Office Code Pro](images/font2.png)
+![Office Code Pro](/images/font2.png)
 
 ### Utilities 
 
 **terminal emulator** [iTerm 2 Beta](http://iterm2.com/downloads.html) has excellent `tmux` support. With `tmux -CC` you can open tmux windows as native iTerm 2 tabs! 
 
-![iterm2](images/iterm2.png)
+![iterm2](/images/iterm2.png)
 
 **color picker** [Color Picker](https://itunes.apple.com/us/app/color-picker/id641027709?l=en&mt=12) by [NSCoding](http://nscoding.co.uk/). This is the best OS X Color Picker I've used.
 
-![colorpicker](images/color_picker.png)
+![colorpicker](/images/color_picker.png)
 
 **markdown preview** [Marked 2](http://marked2app.com/) does a fantastic job of doing on-the-fly previews for Markdown files. It even brings you to the line that's been recently changed.
 
-![marked2](images/marked2.png)
+![marked2](/images/marked2.png)
 
 ### Color Schemes
 
@@ -55,15 +55,15 @@ Yes, both code-writing and prose-writing involve long hours spent looking at str
 
  - **code** *twilight-anti-bright* part of the spacemacs themes-megapack. For my inner Elliot Alderson, I like things dark and gloomy and crap.
  
-![twilight-anti-bright](images/spacemacs.png) 
+![twilight-anti-bright](/images/spacemacs.png) 
  
  - **org-mode** *leuven* This is made specifically to make org-mode buffers look extra fancy. I love it.
  
-![leuven](images/leuven.png) 
+![leuven](/images/leuven.png) 
  
  - **markdown-mode** *tao-yang* part of the themes-megapack. This looks the most like *iA Writer*, and used in conjunction with *writeroom-mode*, you pretty much have a nice, distraction-free markdown editor within Emacs.
 
-![markdown-mode, writeroom-mode](images/writeroom-mode.png)
+![markdown-mode, writeroom-mode](/images/writeroom-mode.png)
 
 ### Appearance
 
