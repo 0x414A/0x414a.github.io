@@ -30,3 +30,12 @@ p {
 pre,code { 
   font-family: 'Anonymous Pro', sans-serif;
 }
+
+blockquote {
+  color: #6e6e6e;
+  background: #fafafa;
+  border-left: solid 5px #eee;
+  padding: 2px 15px 0;
+}
+
+blockquote p { font-size: 12pt; }
