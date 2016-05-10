@@ -39,3 +39,9 @@ blockquote {
 }
 
 blockquote p { font-size: 12pt; }
+
+kbd {
+  padding: 0 5px;
+  background: #fafafa;
+  border: solid 1px #eee;
+}
