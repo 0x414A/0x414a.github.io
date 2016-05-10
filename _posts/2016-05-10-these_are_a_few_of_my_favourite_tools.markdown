@@ -33,7 +33,7 @@ Yes, both code-writing and prose-writing involve long hours spent looking at str
 
 ![Office Code Pro](/images/font2.png)
 
-### Utilities 
+### Utilities/Development
 
 **terminal emulator** [iTerm 2 Beta](http://iterm2.com/downloads.html) has excellent `tmux` support. With `tmux -CC` you can open tmux windows as native iTerm 2 tabs! 
 
@@ -69,4 +69,18 @@ Yes, both code-writing and prose-writing involve long hours spent looking at str
 
 **icons** [LiteIcon](http://freemacsoft.net/liteicon/) lets you change icons for folders, applications, etc. on OS X. You do need to disable SIP in OS X 10.11.
 
-**dock** [cDock 2](http://w0lfschild.github.io/app_cDock) 
+**dock** [cDock 2](http://w0lfschild.github.io/app_cDock) tweaks the look of your dock. 
+
+![cdock](/images/cdock2.png)
+
+### Browser
+
+**Firefox Developer Edition** is what I've been using, since I use Firefox Sync for all my devices as well. I've dedicated a whole section to this because it's such an important part of my workflow.
+
+ - **theme** [simple white compact](https://addons.mozilla.org/en-US/firefox/addon/simple-white-compact/)
+ - **new tab page** [moment](https://addons.mozilla.org/en-US/firefox/addons/moment)
+ - **ad/element-blocking** [ublock origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+ 
+![firefox](/images/firefox.png) 
+ 
+ 
