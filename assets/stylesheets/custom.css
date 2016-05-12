@@ -6,10 +6,15 @@
 @import 'jekyll-github.css';
 
 
-.container { max-width: 725px; }
+@media (max-width: 768px) {
+  .blog-info {
+    text-align: left;
+  }
+  .two.columns { width: 100%;}
+}
 
 .content {
-  margin: 0 auto;
+  margin: 25px auto 0;
   font-family: 'rubiklight', sans-serif;
 }
 

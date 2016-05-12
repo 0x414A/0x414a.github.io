@@ -15,13 +15,25 @@
 }
 
 .blog-info {
-  color: #9EA5A8;
+  text-align: right;
   padding: 0 5px;
   font-size: 12pt;
 }
 
-.blog-title-wrapper {
-  text-align: left;
+.blog-info-month, .blog-info-day { font-weight: bold; }
+
+.blog-info-month {
+  text-transform: uppercase; 
+  color: #727b7f;
+}
+
+.blog-info-day {
+  color: #b0bfc5;
+  font-weight: bold;
+}
+
+.blog-info-year {
+  color: #c2cbdb;
 }
 
 .blog-list-title {
@@ -114,10 +126,4 @@ ul#markdown-toc a {
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
-  .blog-info {
-    text-align: left;
-  }
-  .two.columns { width: 100%;}
-}
 
