@@ -47,6 +47,8 @@ Yes, both code-writing and prose-writing involve long hours spent looking at str
 
 ![marked2](/images/marked2.png)
 
+**VNC client** [VNC Viewer by RealVNC](https://www.realvnc.com/download/viewer/) is the best **free** VNC client I've used on OS X. I've tried *Chicken of the VNC*, *Screens* (too expensive for my occasional use of VNC), and the built-in app (too laggy).
+
 ### Color Schemes
 
 **iTerm 2** *Glacier*, part of [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes). This is one of my favourite color schemes for Sublime Text.
