@@ -5,6 +5,9 @@ title: "These are a few of my favourite tools"
 
 People, for whatever reason, are "wowed" and "impressed" by my setup. I am not entirely sure why, but since I promised myself I would contribute more posts, more frequently, here's my setup on OS X 10.11. 
 
+* TOC
+{:toc}
+
 ### Configuration 
 
 I used to be the type to take pride in their editor, shell configuration and maintained my own oh-my-zsh lite and spacemacs lite, even. At some point, I even used Gentoo. What kind of..??
@@ -85,4 +88,10 @@ Yes, both code-writing and prose-writing involve long hours spent looking at str
  
 ![firefox](/images/firefox.png) 
  
- 
+### Multimedia
+
+**Multimedia Keys** Use your media keys to control the playback of something like 8tracks.com, SoundCloud, even YouTube (!!) with [BeardedSpice](http://beardedspice.github.io).
+
+**Media Player** [mpv](https://mpv.io) has replaced mplayer for me.
+
+
