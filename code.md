@@ -14,7 +14,7 @@ I write.
 
 ##### Current
 
-<i class="devicon-c-plain colored"></i> <a href="https://github.com/0x414A/xhyve-manager">xhyve-manager</a> <br /> Simple commandline utility to manage xhyve Virtual Machines.
+<i class="devicon-c-plain colored"></i> <a href="https://xhyve-manager.github.io/docs">xhyve-manager</a> <br /> Simple commandline utility to manage xhyve Virtual Machines.
 
 <i class="fa fa-code" aria-hidden="true"></i> <a href="https://github.com/0x414A/spacemacs-jekyll">spacemacs-jekyll</a> <br /> A spacemacs layer that adds support for jekyll blogging through Hyde.
 
