@@ -7,7 +7,7 @@ start() {
         docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p $(dlite ip):4000:4000 jekyll/jekyll:pages jekyll serve --watch --force_polling
     else
         echo "Starting server for Linux"
-        docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 127.0.0.1:4000:4000 jekyll/jekyll:pages
+        docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 127.0.0.1:4000:4000 jekyll/jekyll:pages jekyll serve --watch --drafts
     fi
 }
 
