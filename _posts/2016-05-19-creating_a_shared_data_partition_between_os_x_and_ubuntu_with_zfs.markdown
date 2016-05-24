@@ -90,14 +90,60 @@ sudo zfs create data/mysharedcrap
 
 If you navigate to `/data`, you'll now see `mysharedcrap`.
 
-Permissions need to be changed to enable write access for your user:
+
+## Set up correct permissions
+
+Then, ZFS write/read permissions need to be changed to enable write access for your user:
 
 ``` shell
-sudo chown -R aj:aj /data/aj
 sudo zfs allow aj create,destroy,mount data
 ```
 
+Like with HFS, NFS partitions shared between Linux and OS X, the UIDs and GIDs on both systems _must_ match with each other in order for read/write permissions to be granted between the systems. Otherwise, you'll need to `chown -R $USER`  every time you boot into the other operating system.
+
+For this, you'll have to match the UID and GID of the user on Linux you primarily access the ZFS file systems. 
+
+On OS X, get the `uid`  and `gid` of your user with `id $USER`. The output will look something like this:
+
+``` text
+uid=501(aj) gid=20(aj) groups=20(aj),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),106(input),113(lpadmin),128(sambashare),130(libvirtd),999(docker)
+```
+
+Then in Linux, temporarily enable the `root` account if it is disabled by setting a password:
+
+```
+sudo passwd root
+```
+
+While in Linux, change your UIDs and GIDs with the following incantations, replace `501` with whatever your `uid` is, and `YOURUSER` with your username:
+
+``` shell 
+usermod -u 501 YOURUSER 
+vigr # change existing group with id 20 to something else
+find / -user 1000 -exec chown -h 501 {} \;
+groupmod -g 20 YOURUSER 
+find / -group 1000 -exec chgrp -h 20 {} \;
+usermod -g 20 YOURUSER 
+```
+
+If you use a display manager, also change the `UID_MIN` in `/etc/login.defs` to `500`.
+
+Once that's done, the root account can be locke again.
+
+``` shell
+passwd -l root
+```
+
 ## Frustratingly manual part: import/export
+
+Supposedly, if you add these lines to `/etc/default/zfs`, you will not need to do the subsequent steps:
+
+``` shell
+ZFS_MOUNT='yes'
+ZFS_UNMOUNT='yes'
+```
+
+However, this did not seem to work?
 
 When you want to boot into your other OS, you'll need to unmount the ZFS devices and `export` them or you will not be able to write to the _vdev_. This is apparently a security measure to prevent race conditions in data transmission. Sort of like mutex locks. 
 
