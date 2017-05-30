@@ -1,5 +1,5 @@
 title: aj
-tagline: My life is a hexdump 
+tagline: My life is a hexdump
 permalink: /posts/:title/
 exclude: [Gemfile, Gemfile.lock, README.md, vendor, org, .hyde.el, server.sh]
 markdown: kramdown
@@ -7,6 +7,7 @@ kramdown:
   input: GFM
   smart_quotes: ["apos", "apos", "quot", "quot"]
 baseurl: ""
+url: https://allysonjulian.com
 editor: emacs .
 disqus_sitename: allysonjuliancom
 gems: [jekyll-gist]

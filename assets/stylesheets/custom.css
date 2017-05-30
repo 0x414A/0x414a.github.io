@@ -1,4 +1,3 @@
-@import 'fonts.css';
 @import 'header.css';
 @import 'nav.css';
 @import 'blog.css';
@@ -18,7 +17,7 @@
   font-family: 'rubiklight', sans-serif;
 }
 
-/* Set max width for images */ 
+/* Set max width for images */
 img {
   max-width: 100%;
 }
@@ -32,7 +31,7 @@ p {
   font-size: 14pt;
 }
 
-pre,code { 
+pre,code {
   font-family: 'Anonymous Pro', sans-serif;
 }
 
