@@ -23,7 +23,7 @@
 .header-site-title {
   color: #ffb473;
   display: inline;
-  font-family: 'Anonymous Pro', sans-serif;
+  font-family: 'anonymous_proregular', monospace;
   margin: 0 5px 0 10px;
 }
 
@@ -35,7 +35,7 @@
   display: inline;
   color: #656565;
   font-size: 18pt;
-  font-family: 'Anonymous Pro', sans-serif;
+  font-family: 'anonymous_proregular', monospace;
 }
 
 .header-site-tagline span {
