@@ -32,7 +32,7 @@ p {
 }
 
 pre,code {
-  font-family: 'Anonymous Pro', sans-serif;
+  font-family: 'Anonymous Pro', monospace;
 }
 
 blockquote {
