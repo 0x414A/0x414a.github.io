@@ -2,22 +2,45 @@
 
 This is the source code for my [blog](https://allysonjulian.com/).
 
-## Previewing
+## Development
+### Pre-requisites
 
-I preview the site using the official `jekyll/jekyll:pages` docker image, which replicates GitHub Pages' jekyll stack.
+[rbenv installation](https://jekyllrb.com/docs/installation/macos/#rbenv):
 
-### On Linux:
+```shell
+xcode-select --install
+export SDKROOT=$(xcrun --show-sdk-path)
 
+# Install Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install rbenv and ruby-build
+brew install rbenv
+
+# Set up rbenv integration with your shell
+rbenv init
+
+# Check your installation
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | bash
 ```
-docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 127.0.0.1:4000:4000 jekyll/jekyll:pages
+
+### Setup
+
+```shell
+# ssh
+git clone git@github.com:bitjockey42/0x414A.github.io.git
+
+# https
+git clone https://github.com/bitjockey42/0x414A.github.io.git
+
+cd 0x414A.github.io
+
+# Install dependencies
+bundle install
 ```
 
-Then go to http://localhost:4000
+### Running
 
-### On OS X (with [dlite](https://github.com/nlf/dlite)):
-
+```shell
+bundle exec jekyll serve --livereload
 ```
-docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p $(dlite ip):4000:4000 jekyll/jekyll:pages jekyll serve --watch --force_polling
-```
-
-Then go to http://local.docker:4000
