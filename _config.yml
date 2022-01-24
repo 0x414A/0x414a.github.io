@@ -10,4 +10,4 @@ baseurl: ""
 url: https://allysonjulian.com
 editor: emacs .
 disqus_sitename: allysonjuliancom
-gems: [jekyll-gist]
+plugins: [jekyll-gist]
